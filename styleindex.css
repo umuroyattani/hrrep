@@ -1,0 +1,53 @@
+*{
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+.form{
+    width: 450px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding-left: 150px;
+    height: 380px;
+    padding-top: 40px;
+    margin-top: 50px;
+}
+form h1{
+    text-decoration: underline;
+}
+.form .inputbox{
+    position: relative;
+    width: 100%;
+}
+.inputbox input{
+    background: transparent;
+    border: black solid 2px;
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.inputbox input::placeholder{
+    color: black;
+    font-weight: bolder;
+    padding-left: 100px;
+    height: 25px;
+}
+button{
+    background-color: transparent;
+    color: black;
+    border: black solid 2px;
+    border-radius: 5px;
+    width: 51%;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}

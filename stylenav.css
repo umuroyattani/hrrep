@@ -1,0 +1,105 @@
+a{
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
+}
+body{
+    background-color: darkturquoise;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    display: inline;
+}
+.navbar{
+    width: 60%;
+    margin: auto;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    border-radius: 20px;
+}
+ul, li{
+    background-color: brown;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.joinus{
+    background-color: darkturquoise;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.joinus:hover{
+    color: saddlebrown;
+
+}
+.align{
+    margin-right: 300px;
+}
+span{
+    margin-left: 70px;
+    color: brown;
+}
+form{
+    width: 300px;
+    height: 280px;
+    background-color: brown;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.left{
+    display: flex;
+}
+.dnd{
+    margin-left: 60px;
+}
+.signup{
+    margin-left: 88px;
+    color: black;
+    background-color: brown;
+}
+.x{
+    margin-left: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: black solid 2px;
+}
+.y{
+    margin-left: 110px;
+    background-color: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+.signup:hover{
+    color: saddlebrown;
+}
+.y:hover{
+    color: saddlebrown;
+    cursor: pointer;
+    border: saddlebrown 2px solid;
+}
+.x::placeholder{
+    color: black;
+}
+.x::region{
+    border: none;
+}
